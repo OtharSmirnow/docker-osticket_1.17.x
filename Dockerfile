@@ -62,7 +62,7 @@ RUN set -ex; \
 # DO NOT FORGET TO CHECK THE LANGUAGE PACK DOWNLOAD URL BELOW
 # DO NOT FORGET TO UPDATE "image-version" FILE
 ENV OSTICKET_VERSION=1.17.7 \
-    OSTICKET_SHA256SUM=a9d64b67008c64ae2009ee8abda7354c34ff4486666f931d3012988dd6538bc9
+    OSTICKET_SHA256SUM=8a1db271a79f14b77179c1ed8e46594c15736b82da462938515e389e99c002be
 RUN --mount=type=bind,source=utils/verify-plugin.php,target=/tmp/verify-plugin.php,readonly \
     \
     set -ex; \
